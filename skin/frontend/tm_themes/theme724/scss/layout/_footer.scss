@@ -1,0 +1,350 @@
+//
+// Magento
+//
+// NOTICE OF LICENSE
+//
+// This source file is subject to the Academic Free License (AFL 3.0)
+// that is bundled with this package in the file LICENSE_AFL.txt.
+// It is also available through the world-wide-web at this URL:
+// http://opensource.org/licenses/afl-3.0.php
+// If you did not receive a copy of the license and are unable to
+// obtain it through the world-wide-web, please send an email
+// to license@magento.com so we can send you a copy immediately.
+//
+// DISCLAIMER
+//
+// Do not edit or add to this file if you wish to upgrade Magento to newer
+// versions in the future. If you wish to customize Magento for your
+// needs please refer to http://www.magento.com for more information.
+//
+// @category    design
+// @package     rwd_default
+// @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+// @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+//
+
+/* ============================================ *
+ * Footer
+ * ============================================ */
+
+/* -------------------------------------------- *
+ * Footer
+ */
+
+ %footer-title{
+    font-family: $f-stack-default;
+    color: $c-h1;
+    font-size: 24px;
+    display: block;
+    padding: 0 0 20px;
+    margin: 0;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.footer,
+.footer button {
+    font-family: $f-stack-special;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+    padding-top: 55px;
+
+    @include bp(max-width, $bp-xsmall) {
+        padding-top: $trim-small;
+    }
+
+
+
+
+    .footer-cols-wrapper {
+        padding-bottom: 25px;
+        position: relative;
+        
+    }
+
+    .footer-col{
+        float: left;
+
+        h4{
+            @extend %footer-title;
+            &:after {
+                content: ":";
+            }
+        }
+
+        &.last{ }
+        &.contact_footer_block {
+            margin-top: 10px;
+            h4 {padding-bottom: 13px;}
+            p {margin-bottom: 7px;}
+        }
+    }
+        
+    .block-title {
+        border: 0;
+        padding: 0;
+        margin-bottom: 0;
+
+        strong {
+            @extend %footer-title;
+        }
+    }
+
+    .block-title,
+    address {
+        color: $c-text-primary;
+    }
+
+    .links,
+    .footer-col ul {
+        
+        padding: 0;
+
+        li {
+            word-break: break-all;
+            line-height: 1.4;
+            padding: 6px 0 5px;
+        }
+
+        a {
+            color: #c8c8c8;
+            font-size: 14px;
+            text-transform: uppercase;
+            &:hover {
+                color: $c-text;
+            }
+        }
+    }
+
+    .block{
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .block-subscribe {
+        margin-bottom: $trim;
+    }
+
+    .form-subscribe-header {
+        display: none;
+    }
+
+    .contact_footer_block {
+        p {
+            color: #c5c5c5;
+            span {
+                width: 20px;
+                text-align: left;
+                color: $c-text;
+            }
+            a {
+                color: #c5c5c5;
+                &:hover {
+                    color: $c-text;
+                }
+            }
+        }
+        .soc-icon {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            a {
+                span {
+                    font-size: 24px;
+                    color: $c-text;
+                    margin-right: 10px;
+                }
+                &:hover {
+                    span {
+                        color: #c5c5c5;
+                    }
+                }
+            }
+        }
+    }
+    /* ==================================back-top ================================================== */
+    #back-top {
+        position: fixed; 
+        bottom:40px;
+        z-index:99; 
+        right: 1%; 
+        display:none; 
+        width:41px;
+        height:41px;
+
+        span{
+           display: block;  
+           text-align: center; 
+           width: 45px;
+           height: 45px;
+           background-color: $accent-color-1;
+           color: #fff;
+           @include transition(all, 0.2s, ease-in-out);
+
+            &::before {
+                @include fa-icon;
+                content: "\f106"; 
+                font-size: 45px; 
+                line-height: 40px;
+            }
+
+            &:hover{
+                background-color: darken( $accent-color-1, 15%);
+            }
+        }
+    }
+
+    // ---------------------------------------------
+
+    .block-subscribe .input-box {
+        float: left;
+        width: 100%;
+        padding-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .block-subscribe .input-text {
+        width: 100%;
+    }
+
+    .block-subscribe .block-content {
+        padding-top: 0;
+        margin-top: 0;
+
+        &:after {
+            @include clearfix;
+        }
+    }
+
+    .block-subscribe .actions {
+        float: right;
+        margin: 0;
+    }
+
+    .block-subscribe .actions .button {
+        height: 40px;
+        line-height: 17px;
+        float: left;
+    }
+
+    .bugs,
+    address {
+        clear: both;
+    }
+
+    .bugs {
+        display: none;
+    }
+
+    .form-language,
+    .currency-switcher,
+    .store-switcher {
+        clear: both;
+        margin-bottom: $gap;
+    }
+
+    .form-language,
+    .currency-switcher {
+        display: none;
+    }
+
+    address {
+        text-align: center;
+        font-size: $f-size-xxs;
+        margin: $trim -10000px 0;
+        padding: $trim 10000px;
+        background: #f6f6f6;
+        font-size: 14px;
+        color: #c9c9c9;
+        text-align: left;
+    }
+
+    @include bp(max-width, $bp-xlarge) {
+        $links-trim: percentage(30px / 960px);
+        $links-width: (100 - ($links-trim * 3)) / 5;
+
+        .footer-col{
+            h4,
+            .block-title strong {font-size: 20px; word-break: break-all;}
+            ul a {font-size: 11px;}
+        }
+
+        .footer-col:nth-child(4) { }
+
+        .block-subscribe {
+            clear: both;
+            float: none;
+            margin: 0 auto $trim auto;
+        }
+    }
+
+    @include bp(max-width, $bp-large) {
+        $links-trim: percentage(30px / 960px);
+        $links-width: (100 - ($links-trim * 3)) / 3;
+
+        .footer-col{ &.last{} }
+         .footer-col{
+            h4,
+            .block-title strong {font-size: 18px; word-break: break-all; letter-spacing: -0.3px; }
+            ul a {font-size: 10px;}
+        }
+        .footer-col:nth-child(4) {  }
+
+        .block-subscribe {
+            clear: both;
+            float: none;
+            margin: 0 auto $trim auto;
+        }
+    }
+
+    @include bp(max-width, $bp-medium) {
+
+        .footer-col {
+            border-top: none;
+            float: none;
+            width: 100%;
+            margin-bottom: 3px;
+
+            &.last{ }
+            
+
+            h4,
+            .block-title strong {
+                @include accordionDtBase('right', $c-module-border);
+                display: block;
+                width: 100%;
+                cursor: pointer;
+
+                &.active {
+               
+                    @include accordionDtBase('down', $c-module-border);
+                   
+                }
+            }
+
+        }
+
+        .footer-col-content,
+        .block-content {
+            padding: $box-spacing !important;
+            margin-top: 0;
+            border-width: 0 1px 1px;
+            border-style: solid;
+            border-color: $c-module-border;
+        }
+
+        .block-subscribe {
+           margin-bottom: $min-gap;
+        }
+        .footer-col.contact_footer_block {
+            margin-top: 0;
+            .block-content {padding-top: 10px;}
+        }
+
+    }
+
+}
+

@@ -1,0 +1,268 @@
+//
+// Magento
+//
+
+// ==============================================
+// Core Application / Full MQ Support
+// ==============================================
+
+$mq-support: true;
+$mq-fixed-value: false; 
+
+@import "framework"; 
+@import "core";
+
+.top-banner-block {
+	.banner-item {
+		float: left;
+		width: 50%;
+		background: #ccc;
+		position: relative;
+		overflow: hidden;
+		&:hover {
+			.banner-text { @include scale(5,5); opacity: 0 }
+		}
+	}
+	@include bp(max-width, $bp-small) {
+		.banner-item {
+			width: 100%;
+		}
+	}
+	.banner-bg-1 {
+		background-image: url(../images/banner-1.jpg);
+		background-size: cover;
+		padding-bottom: 70.85%;
+	}
+	.banner-bg-2 {
+		background-image: url(../images/banner-2.jpg);
+		background-size: cover;
+		padding-bottom: 70.85%;
+	}
+	.banner-bg-3 {
+		background-image: url(../images/banner-3.jpg);
+		background-size: cover;
+		padding-bottom: 70.85%;
+	}
+	.banner-bg-4 {
+		background-image: url(../images/banner-4.jpg);
+		background-size: cover;
+		padding-bottom: 70.85%;
+	}
+	.banner-text {
+		position: absolute;
+		top: -1px;
+		bottom: -1px;
+		left: -1px;
+		right: -1px;
+		@include transition-m;
+		@include scale(1,1);
+		opacity: 1;
+		> span {
+			position: absolute;
+		}
+		.banner-line-1,
+		.banner-line-3 {
+			left: 50%;
+			width: 1px;
+			height: 20%;
+			background: $c-white;
+			opacity: .2;
+		}
+		.banner-line-1 {top: 0;}
+		.banner-line-3 {bottom: 0;}
+		.banner-line-2,
+		.banner-line-4 {
+			top: 50%;
+			width: 14.53%;
+			height: 1px;
+			background: $c-white;
+			opacity: .2;
+		}
+		.banner-line-2 { right: 0; }
+		.banner-line-4 { left: 0; }
+		p {
+			font-size: 4vw;
+			line-height: 3.5vw;
+			color: $c-white;
+			font-family: $f-stack-header;
+			text-align: center;
+			padding-top: 23%;
+		}
+		@include bp(max-width, $bp-large) { p {padding-top: 27%;} }
+		@include bp(max-width, $bp-small) { p {font-size: 10vw; line-height: 10vw;} }
+	}
+	.banner-text-1 {background: #e08251;}
+	.banner-text-2 {background: #b44c53;}
+	.banner-text-3 {background: #1fa37d;}
+	.banner-text-4 {background: #e0b351;}
+	.banner-item-full-w {
+		width: 100%;
+		background: $c-text;
+		text-align: center;
+		padding: 30px 20px 50px;
+		position: relative;
+		p {
+			color: #8d8d8d;
+			font-size: 4vw;
+			font-family: $f-stack-header;
+			text-align: center;
+		}
+		i {
+			color: $c-white;
+			font-style: normal;
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			width: 1px;
+			bottom: 0;
+			left: 50%;
+			height: 14.58%;
+			background: $c-white;
+			opacity: .2;
+		}
+	}
+	.button {
+		background: $c-white;
+		border-color: $c-white;
+		color: $c-text;
+		padding-right: 30px;
+		padding-left: 30px;
+		&:hover {
+			background: none;
+			color: $c-white;
+		}
+	}
+}
+.parallax-block {
+	background: url(../images/parallax.jpg) 50% 50%;
+	position: relative;
+	background-position: fixed;
+	margin-bottom: 30px;
+	background-size: cover;
+	padding: 96px 0;
+	.container {
+		background: $c-white;
+		padding: 45px 20px 60px;
+		text-align: center;
+		position: relative;
+		.par-line {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			height: 40px;
+			width: 1px;
+			background: #e5e5e5;
+		}
+		&:after,
+		&:before {
+			content: "";
+			position: absolute;
+			bottom: 77px;
+			width: 40%;
+			height: 1px;
+			background: #e5e5e5;
+		}
+		&:before {left: 0;}
+		&:after {right: 0;}
+	}
+	h3 {
+		font-family: $f-stack-header;
+		font-size: 4vw;
+		color: $c-text;
+		text-transform: none;
+	}
+	p {
+		width: 75%;
+		margin: 10px auto 30px;
+	}
+	.button {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	@include bp(max-width, $bp-medium) {
+		h3 { font-size: 6vw;}
+		p {width: 100%; margin-top: 30px;}
+		.container {
+			&:after,
+			&:before { width: 20%; }
+		}
+	}
+}
+.bottom_banner_block {
+	.banner-b-1,
+	.banner-b-2,
+	.banner-b-3 {
+		padding-bottom: 87.027%;
+		position: relative;
+		display: block;
+		overflow: hidden;
+		@include bp(max-width, $bp-medium) {
+			border-bottom: 1px solid $c-white;
+		}
+		span {
+			position: absolute;
+			top: -1px;
+			left: -1px;
+			right: -1px;
+			bottom: -1px;
+			background: $c-text;
+			opacity: 1;
+			text-align: center;
+			@include scale(1,1);
+			@include transition-m;
+			&:before,
+			&:after {
+				content: "";
+				position: absolute;
+				left: 50%;
+				width: 1px;
+				height: 11.18%;
+				background: $c-white;
+				opacity: .2;
+			}
+			&:before {top: 0;}
+			&:after {bottom: 0;}
+		}
+		&:hover {
+			span {
+				@include scale(5,5);
+				opacity: 0;
+			}
+		}
+		h3 {
+			font-family: $f-stack-header;
+			font-size: 72px;
+			line-height: 72px;
+			padding-top: 25%;
+			color: $c-white;
+			text-transform: none;
+		}
+		@include bp(max-width, $bp-xlarge) {
+			h3 {
+				font-size: 60px;
+				line-height: 60px;
+				padding-top: 23%;
+			}
+		}
+		@include bp(max-width, $bp-large) {
+			h3 {
+				font-size: 45px;
+				line-height: 45px;
+			}
+		}
+		@include bp(max-width, $bp-medium) {
+			h3 {
+				font-size: 17vw;
+				line-height: 17vw;
+			}
+		}
+	}
+	.banner-b-1 { background-image: url(../images/banner-b-1.jpg); background-size: cover;}
+	.banner-b-2 { background-image: url(../images/banner-b-2.jpg); background-size: cover;}
+	.banner-b-3 { background-image: url(../images/banner-b-3.jpg); background-size: cover;}
+}
+.widget-catalogsale-products {margin-bottom: 77px;}
+#crosssell-products-list {
+	.product {background: $c-text;}
+}

@@ -1,0 +1,282 @@
+//
+// Magento
+//
+
+// =============================================
+// Compass Defaults
+// =============================================
+
+// Border Radius
+
+$default-border-radius: 0px;
+
+// Transition
+
+$default-transition-property: all;
+$default-transition-duration: 200ms;
+$default-transition-function: linear;
+$default-transition-delay: 0;
+
+// =============================================
+// Primary Break Points
+// =============================================
+
+// These should be used with the bp (max-width, xx) mixin
+// where a min-width is used, remember to +1 to break correctly.
+// If these are changed, they must also be updated in app.js
+
+$bp-xsmall: 479px;
+$bp-small: 599px;
+$bp-medium: 767px;
+$bp-large: 991px;
+$bp-xlarge: 1199px;
+
+// =============================================
+// Base Values
+// =============================================
+
+// Spacing
+
+$min-gap: 3px;
+
+$gap: 10px;
+
+$trim: 30px;
+// This will get applied on viewports smaller than 480px
+$trim-small: 15px;
+
+// Padding that will get applied to content areas
+$box-spacing-large: 20px;
+
+// Standard padding around box elements such as banner messages, etc
+$box-spacing: 10px;
+
+// Standard spacing between elements within a box, such as "Add to cart", "Price box", etc
+$element-spacing: 7px;
+
+// Dimensions
+
+$max-page-width:				1230px;
+$max-content-width: 			1170px;
+$max-std-formatted-width: 		50em;
+$container-large-desktop:		$max-content-width + $trim;
+
+$max-container-width: 			$trim + $max-content-width + $trim;
+$container-lg:					$container-large-desktop;
+
+
+
+
+
+// // Small screen / tablet
+// $container-tablet:             (720px + $grid-gutter-width) !default;
+// //** For `$screen-sm-min` and up.
+// $container-sm:                 $container-tablet !default;
+
+// // Medium screen / desktop
+// $container-desktop:            (940px + $grid-gutter-width) !default;
+// //** For `$screen-md-min` and up.
+// $container-md:                 $container-desktop !default;
+
+// // Large screen / wide desktop
+// $container-large-desktop:      (1140px + $grid-gutter-width) !default;
+// //** For `$screen-lg-min` and up.
+// $container-lg:                 $container-large-desktop !default;
+
+
+
+
+// =============================================
+// Brand Colors
+// =============================================
+
+// Usually not used directly in Sass partials.
+// Only used to define context-based color vars in this file.
+
+$c-blue: #3399CC;
+$c-green: #11B400;
+$c-pink: #D85378;
+$c-orange: #F3793B;
+$c-red: #CF5050;
+$c-yellow: #FFDD15;
+$c-black: #000000;
+$c-gray: #333333;
+$c-white: #ffffff;
+
+// =============================================
+// Base Colors
+// =============================================
+
+// Body
+$c-body-background: $c-white;
+$c-page-background: $c-white;
+$c-menu-background: $c-white;
+
+
+$accent-color-1: $c-red;
+
+
+// Text
+
+$c-text: #464646;
+$c-text-gray: #A0A0A0;
+$c-text-white: $c-white;
+// Primary font color for headings and other non-link text
+$c-text-primary: $c-gray;
+
+
+// Interaction
+
+$c-action: #a3a3a3;
+$c-stimulus: darken($c-gray, 15%);
+$c-subtle: #A0A0A0;
+
+// Notifications
+
+$c-danger: #DF280A;
+$c-danger-background: #FAEBE7;
+
+$c-success: $c-green;
+$c-success-background: #EFF5EA;
+
+$c-warn: #E26703;
+$c-warn-background: #F9EBE6;
+
+$c-dark: #333333;
+
+// Global Elements
+
+$c-divider-border: #ECECEC;
+
+$c-backround-light: #eeeeee;
+$c-backround-dark: #333333;
+
+
+// =============================================
+// Element Colors
+// =============================================
+
+// Buttons
+
+$c-button: $c-red;
+$c-button-hover: $c-white;
+$c-button-active: darken($c-text, 10%);
+
+$view-btn-cart-height: 35px;
+
+// Secondary Buttons
+
+$c-button-secondary: $c-text;
+$c-button-secondary-hover: $c-white;
+$c-button-secondary-active: darken(#DDDDDD, 10%);
+
+$c-button-subtle: #ECECEC;
+
+// Forms
+
+$c-input-border: #ebebeb;
+$c-input-border-focus: darken($c-input-border, 17%);
+
+$c-input-placeholder: $c-text-gray;
+$c-input-text: $c-text;
+
+$c-fieldset-border: #CCCCCC;
+$c-fieldset-border-light: #EDEDED;
+
+// Labels
+
+//** Default label text color
+$label-color: $c-text;
+//** Default text color of a linked label
+$label-link-hover-color: $c-text;
+
+// Headings
+
+$c-h1: $c-text;
+$c-h2: $c-text;
+$c-h3: $c-text;
+$c-h4: $c-text;
+$c-h5: $c-text;
+$c-h6: $c-text;
+
+// Link
+$c-link: #c8c8c8;
+$c-link-hover: darken($c-link, 20%);
+$c-link-focus: $c-link;
+$c-link-active: darken($c-link, (5% / 2));
+
+// Module (generic)
+
+$c-module-background: #F4F4F4;
+$c-module-background-hover: shade($c-module-background, 3%);
+$c-module-background-secondary: #EAF8FF;
+$c-module-background-dark: #AAAAAA;
+// This should be applied whenever the border is surrounding a white element and/or is directly showing on white.
+$c-module-border: #CCCCCC;
+// This should be applied whenever the border is wrapping an element with $c-module-background
+$c-module-border-light: #EDEDED;
+$c-module-border-dark: #777777;
+$c-module-border-highlight: $c-action;
+
+
+$skip-background: #EDEDED;
+
+
+// Table
+
+$c-table-background: #F4F4F4;
+$c-table-border: #C0C0C0;
+
+$c-table-zebra-odd: #F8F7F5;
+$c-table-zebra-even: #EEEDED;
+
+// Tabs
+
+$c-tabs-background: #F0F0F0;
+
+// Email
+$c-email-background: #EBEBEB;
+$c-email-background-secondary: #E1F0F8;
+$c-email-border: #C3CED4;
+$c-email-action: #3696C2;
+$c-email-cell: #F1F1F1;
+$c-email-highlighted-background: #FFFDD9;
+$c-email-highlighted-border: #FFF74C;
+
+// =============================================
+// Typography
+// =============================================
+
+// Google Web Font stylesheet is included via layout XML
+
+// Font Stacks
+
+$f-stack-sans: 'Helvetica Neue', Verdana, Arial, sans-serif;
+$f-stack-serif: Georgia, Times, 'Times New Roman', serif;
+$f-stack-special: 'Roboto', sans-serif;
+$f-stack-header: 'Grand Hotel', cursive;
+
+$font-family-icon: 'material-design';
+
+
+/***/
+$f-stack-default: $f-stack-special;
+
+/***/
+
+// Font Sizes
+
+$f-size-xxl: 18px;
+$f-size-xl: 16px;
+$f-size-l: 15px;
+
+$f-size: 14px;
+
+$f-size-s: 13px;
+$f-size-xs: 12px;
+$f-size-xxs: 11px;
+
+// Base Measures
+
+$b-line-height: 1.5;
+$b-margin-bottom: 1.5em;

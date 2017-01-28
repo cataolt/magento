@@ -1,0 +1,48 @@
+//
+// Magento
+//
+
+// =============================================
+// Mixin - boxshadow
+// =============================================
+
+@mixin boxshadow($top, $left, $blur, $color, $inset:"") {
+	
+      -webkit-box-shadow:$top $left $blur $color #{$inset};
+      -moz-box-shadow:$top $left $blur $color #{$inset};
+      box-shadow:$top $left $blur $color #{$inset};
+    }
+
+/*********************************************/
+
+
+
+@mixin border-radius($a){
+	-moz-border-radius: $a;
+	  -webkit-border-radius: $a;
+	  border-radius: $a;
+}
+
+/**********************************/
+
+@mixin appearance($b){
+	-moz-appearance: $b;
+	  -webkit-appearance: $b;
+	  appearance: $b;
+}
+/**************************************/
+
+
+@mixin inline-block{
+	display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;	
+}
+
+/****************************************/
+
+@mixin single-transition($property:all, $speed:300ms, $ease:ease-out) {
+  transition: $property $speed $ease;
+}

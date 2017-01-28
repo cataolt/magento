@@ -1,0 +1,433 @@
+//
+// Magento
+//
+// NOTICE OF LICENSE
+//
+// This source file is subject to the Academic Free License (AFL 3.0)
+// that is bundled with this package in the file LICENSE_AFL.txt.
+// It is also available through the world-wide-web at this URL:
+// http://opensource.org/licenses/afl-3.0.php
+// If you did not receive a copy of the license and are unable to
+// obtain it through the world-wide-web, please send an email
+// to license@magento.com so we can send you a copy immediately.
+//
+// DISCLAIMER
+//
+// Do not edit or add to this file if you wish to upgrade Magento to newer
+// versions in the future. If you wish to customize Magento for your
+// needs please refer to http://www.magento.com for more information.
+//
+// @category    design
+// @package     rwd_default
+// @copyright   Copyright (c) 2006-2014 X.commerce, Inc. (http://www.magento.com)
+// @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+//
+
+/* ============================================ *
+ * CMS Pages
+ * ============================================ */
+
+// ----------------------------------------------
+// Content for static pages
+
+.cms-page-view,
+.cms-no-route {
+    .page-title,
+    .page-head {
+        h1,
+        h3 {
+            border: none;
+        }
+    }
+
+    .std {
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            color: $c-text;
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        li {
+            color: $c-text;
+            font-family: $f-stack-serif;
+            font-size: $f-size;
+            font-style: italic;
+            line-height: 24px;
+        }
+    }
+
+    .col-left {
+        &:after {
+            @include clearfix;
+        }
+    }
+}
+
+.cms-no-route {
+    .std {
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.cms-page-view .std,
+.cms-home .std,
+.cms-no-route .std {
+    .messages {
+        margin-bottom: $box-spacing;
+
+        ul {
+            margin-bottom: 0;
+        }
+
+        li {
+            list-style: none;
+            margin-left: 0;
+            font-style: normal;
+            font-family: $f-stack-sans;
+        }
+    }
+}
+
+// ----------------------------------------------
+// Accordition
+
+#accordion {
+    @include accordion;
+
+    li {
+        position: relative;
+        overflow: hidden;
+
+        .plusimage h2 {
+            margin-right: $gap;
+        }
+    }
+}
+
+// ----------------------------------------------
+// Sitemap
+
+.page-sitemap {
+    .links {
+        display: block;
+        text-align: right;
+        margin: 0 20px 0 0;
+
+        a { position: relative; }
+    }
+
+    .sitemap {
+        padding: 0 20px;
+        margin: 15px 0;
+        font-size: $f-size-xs;
+
+        li {
+            margin: 3px 0;
+        }
+    }
+}
+
+// ----------------------------------------------
+// Contact page
+
+.contacts-index-index {
+    h1 {
+        border: none;
+    }
+
+    h3{
+        @extend %form-legend;
+    }
+
+}
+
+#contactForm {
+    padding: 0px;
+
+    ul li{
+
+        margin-bottom: 20px;
+
+        span{
+            display: block;
+
+            &.contact_details_fax,
+            &.contact_details_telephone{
+                font-weight: 600;
+            }
+        }
+
+        .icons-marker{
+            font-size: 24px;
+            line-height: 26px;
+            color: $accent-color-1;
+            margin: 0 10px 10px 0;
+            width: 30px;
+        }
+    }
+
+    p.required{
+        float: none;
+        text-align: right;
+    }
+
+    label{
+        font-size: 11px;
+    }
+
+    .fields{
+
+        .field{ 
+            float: left;
+            width: 33%;
+
+            input{
+                width: 95%;
+            }
+        }
+    }
+
+    textarea{
+        width: 97.5%;
+        max-width: 97.5%;
+        height: 130px;
+    }
+
+    &:after {
+        @include clearfix;
+    }
+
+    .fieldset .legend + .required {
+        margin: 0;
+    }
+
+    .buttons-set{
+        margin: 10px 0;
+        width: 97.5%;
+        max-width: 97.5%;
+        border-top: none;
+
+    }
+}
+
+@include bp(max-width, $bp-medium) {
+
+    #contactForm {
+        padding-left: 0;
+
+        .fields{
+
+            .field{ 
+                float: none;
+                width: 100%;
+
+                input{
+                    width: 100%;
+                }
+            }
+        }
+
+         textarea,
+         .buttons-set{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+}
+
+ @include bp(max-width, $bp-small) {
+    .contacts-index-index{
+        .buttons-set{
+            button {
+                float: right;
+                margin-left: 5px;
+            }
+        }
+    }   
+}
+
+
+
+//--------------------------------------------------
+// About Us
+
+
+    
+.dropcap {
+    
+    background-color: $accent-color-1;    
+    @include border-radius(4px);
+    color: #fff;
+    display: block;
+    float: left;
+    font: 30px/36px $f-stack-default;
+    height: auto;
+    margin: 0 20px 30px 0;
+    overflow: hidden;
+    padding: 17px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+}
+
+img.alignleft {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.sm_hr {
+    background-color: $c-module-border-light;
+    height: 1px;
+    margin: 50px 0;
+}
+
+  
+.about-page figure img {
+    border: 1px solid $c-module-border;
+}
+
+.team {
+    
+    text-align: center;
+
+    figure {
+        @include border-radius(0);
+        background-color: $c-module-background;
+        border: 1px solid $c-module-border;
+        display: block;
+        margin: 0 auto 12px;
+        max-width: 254px;
+        padding: 12px;
+
+        a {
+            border: 1px solid $c-module-border;
+            display: block;
+            overflow: hidden;
+        }
+
+        &:hover, {
+            background-color: $c-module-background-hover;
+        }
+
+        img {
+            border: medium none;
+        }
+    }
+
+    .excerpt {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+   
+}
+
+
+
+.testimonials {
+    
+    .testi-item {
+        margin-bottom: 30px;
+
+        a {
+            font-size: 14px;
+        }
+    }
+
+    .testi-meta {
+        display: block;
+        line-height: 18px;
+        padding-left: 50px;
+    }
+
+    .user {
+        color: #000;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    blockquote {
+        border: 1px solid #dbdbdb;
+        margin-bottom: 30px;
+        position: relative;
+
+        &:after {
+            background: url("../images/media/testi_arr.png") no-repeat left top;
+            bottom: -20px;
+            content: "";
+            display: block;
+            height: 20px;
+            left: 30px;
+            position: absolute;
+            width: 21px;
+        }
+
+    }
+
+} 
+
+@include bp(max-width, $bp-xsmall) {
+    .about-page{
+        img.alignleft {
+            float: none;
+            margin: 0 0 20px 0;
+        }
+
+    }
+}
+
+
+//--------------------------------------------------
+// Customer Services & Template Settings
+
+@include bp(max-width, $bp-medium) {
+    
+    .cms-page-view{
+        .data-table{
+            @include linearize-table; 
+
+            thead{
+                display: none;
+            }
+        }
+     }
+
+}
+
+ 
+
+
+//--------------------------------------------------
+// Privacy Policy
+
+
+.table.table-list-style{
+    & > tbody > tr > td{
+        border-top: 0;
+        padding: 0px 30px 30px;
+
+        &:not(:last-child){
+            border-right: solid 1px $c-table-border;
+        }
+
+        @include bp(max-width, $bp-small) {
+            padding: 0 10px 10px;
+        }
+    }
+
+    h4{
+        float: right;
+        max-width: 300px;
+        text-align: right;
+    }
+}

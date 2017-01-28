@@ -1,0 +1,116 @@
+<?php
+/**
+ * Magento
+ *
+**/
+?>
+
+<?php
+    ini_set('error_reporting', E_ALL);
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+?>
+
+<!-- Ajax Login -->
+<div class="skip-links2"> <span class="skip-link2 skip-account2"></span></div>
+<div id="header-account2" class="skip-content2"></div>
+<!-- End Ajax Login -->
+<div class="header-row-background">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="header-row">
+                    
+                    <!-- p class="welcome-msg"><?php // echo $this->getChildHtml('welcome') ?> <?php //  echo $this->getAdditionalHtml() ?></p -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header id="header" class="page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="page-header-container">
+                    <!-- a class="logo" href="<?php // echo $this->getUrl('') ?>">
+                        <img src="<?php // echo $this->getLogoSrc() ?>" alt="<?php // echo $this->getLogoAlt() ?>" class="large" />
+                        <img src="<?php // echo $this->getLogoSrcSmall() ?>" alt="<?php // echo $this->getLogoAlt() ?>" class="small" />
+                    </a -->
+
+                    <!-- *************  Skip Container ************* -->
+                    <div class="header-links">
+                        <?php echo $this->getChildHtml('topLinks') ?>
+                    </div>
+                    
+                    <div class="skip-container">
+                    
+                        <div class="skip-links">
+
+                            <!-- Menu Label -->
+                            <a href="#header-nav" class="skip-link skip-nav">
+                                <span class="icon"></span>
+                                <span class="label"><?php echo $this->__('Menu'); ?></span>
+                            </a>
+
+                            <!-- Search Label -->
+                            <a href="#header-search" class="skip-link skip-search">
+                                <span class="icon"></span>
+                                <span class="label"><?php echo $this->__('Search'); ?></span>
+                            </a>
+
+                            <!-- Account Label -->
+                            <a href="<?php echo $this->helper('customer')->getAccountUrl(); ?>" data-target-element="#header-account" class="skip-link skip-account">
+                                <span class="icon-default fa fa-user-plus"></span>
+                                <span class="icon-active fa fa-user-times"></span>
+                                <span class="label"><?php echo $this->__('Account'); ?></span>
+                            </a>
+
+                            <!-- Cart -->
+                            <div class="header-minicart">
+                                <?php echo $this->getChildHtml('minicart_head'); ?>
+                            </div>
+                        </div>
+
+                    <div class="header-switchers">
+                        <?php echo $this->getChildHtml('store_language') ?>
+                        <?php echo $this->getChildHtml('currency_switcher') ?>
+                    </div>
+
+                        
+                        <!-- Search content -->
+                        <div id="header-search" class="skip-content">
+                            <?php echo $this->getChildHtml('topSearch') ?>
+                        </div>
+
+                        <!--  Account content -->
+                        <div id="header-account" class="skip-content">
+                            <?php echo $this->getChildHtml('topLinks') ?>
+                        </div>
+                    </div>
+
+                    <!-- *************  End Skip Container ************* -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-menu">
+         <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="header-nav" class="skip-content">
+                        <?php echo $this->getChildHtml('topMenu') ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     
+</header>
+ <!-- Navigation -->
+
+<?php echo $this->getChildHtml('slider_block') ?>
+<?php echo $this->getChildHtml('top_banner_container') ?>
+<?php echo $this->getChildHtml('topContainer'); ?>
