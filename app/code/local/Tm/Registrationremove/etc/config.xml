@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tm_Registrationremove>
+            <version>0.1.0</version>
+        </Tm_Registrationremove>
+    </modules>
+    <!--<global>-->
+        <!--<rewrite>-->
+            <!--<tm_registrationremove_customer_account_create>-->
+                <!--<from><![CDATA[#^/customer/account/create/$#]]></from>-->
+                <!--<to>/registrationremove/customer_account/create</to>-->
+            <!--</tm_registrationremove_customer_account_create>-->
+            <!--<tm_registrationremove_customer_account_createPost>-->
+                <!--<from><![CDATA[#^/customer/account/createPost/$#]]></from>-->
+                <!--<to>/registrationremove/customer_account/createPost</to>-->
+            <!--</tm_registrationremove_customer_account_createPost>-->
+        <!--</rewrite>-->
+    <!--</global>-->
+    <!--<frontend>-->
+        <!--<routers>-->
+            <!--<tm_registrationremove>-->
+                <!--<use>standard</use>-->
+                <!--<args>-->
+                    <!--<module>Tm_Registrationremove</module>-->
+                    <!--<frontName>registrationremove</frontName>-->
+                <!--</args>-->
+            <!--</tm_registrationremove>-->
+        <!--</routers>-->
+    <!--</frontend>-->
+</config>
+

@@ -1,0 +1,285 @@
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:01+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:04+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T11:55:18+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:26+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:27+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:46+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:47+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:48+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:07:50+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:12:53+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:01+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:04+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:08+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:21+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:24+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:42+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:13:45+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:15:33+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : error parsing attribute name  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : attributes construct error  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 4: parser error : Couldn't find end of Start Tag modul line 3  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 		&lt;Tm_GoogleMap&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 		^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 7: parser error : Opening and ending tag mismatch: config line 2 and modules  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;/modules&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 	          ^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 8: parser error : Extra content at the end of the document  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 	&lt;frontend&gt;  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510
+2017-01-29T12:18:08+00:00 ERR (3): Warning: simplexml_load_string(): 	^  in D:\work\www\premiat\magento\lib\Varien\Simplexml\Config.php on line 510

@@ -1,0 +1,19 @@
+a:5:{i:0;s:75:"Invalid method Mage_Page_Block_Template_Links::removeLinkByName(Array
+(
+)
+)";i:1;s:1954:"#0 [internal function]: Varien_Object->__call('removeLinkByNam...', Array)
+#1 [internal function]: Mage_Page_Block_Template_Links->removeLinkByName()
+#2 D:\work\www\premiat\magento\app\code\core\Mage\Core\Model\Layout.php(348): call_user_func_array(Array, Array)
+#3 D:\work\www\premiat\magento\app\code\core\Mage\Core\Model\Layout.php(214): Mage_Core_Model_Layout->_generateAction(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#4 D:\work\www\premiat\magento\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#5 D:\work\www\premiat\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#6 D:\work\www\premiat\magento\app\code\core\Mage\Cms\Helper\Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#7 D:\work\www\premiat\magento\app\code\core\Mage\Cms\Helper\Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#8 D:\work\www\premiat\magento\app\code\core\Mage\Cms\controllers\IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#9 D:\work\www\premiat\magento\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Cms_IndexController->indexAction()
+#10 D:\work\www\premiat\magento\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 D:\work\www\premiat\magento\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 D:\work\www\premiat\magento\app\code\core\Mage\Core\Model\App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 D:\work\www\premiat\magento\app\Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 D:\work\www\premiat\magento\index.php(83): Mage::run('', 'store')
+#15 {main}";s:3:"url";s:27:"/premiat/magento/index.php/";s:11:"script_name";s:26:"/premiat/magento/index.php";s:4:"skin";s:7:"english";}

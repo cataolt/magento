@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <config>
-	<modul
+	<modules>
 		<Tm_GoogleMap>
 			<version>0.1.0</version>		
 		</Tm_GoogleMap>
