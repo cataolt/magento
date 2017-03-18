@@ -54,9 +54,9 @@
 
             <block type="wishlist/customer_sidebar" name="wishlist_sidebar" as="wishlist" after="cart_sidebar" template="wishlist/sidebar.phtml" />
 
-            <block type="catalog/product_compare_sidebar" after="wishlist_sidebar" name="catalog.compare.sidebar" template="catalog/product/compare/sidebar.phtml"/>
-            <block type="reports/product_viewed" after="catalog.compare.sidebar" name="left.reports.product.viewed" template="reports/product_viewed.phtml" />
-            <block type="reports/product_compared" after="left.reports.product.viewed" name="left.reports.product.compared" template="reports/product_compared.phtml" />
+            <!--<block type="catalog/product_compare_sidebar" after="wishlist_sidebar" name="catalog.compare.sidebar" template="catalog/product/compare/sidebar.phtml"/>-->
+            <!--<block type="reports/product_viewed" after="catalog.compare.sidebar" name="left.reports.product.viewed" template="reports/product_viewed.phtml" />-->
+            <!--<block type="reports/product_compared" after="left.reports.product.viewed" name="left.reports.product.compared" template="reports/product_compared.phtml" />-->
             <block type="poll/activePoll" name="left.poll">
                 <action method="setPollTemplate"><template>poll/active.phtml</template><type>poll</type></action>
                 <action method="setPollTemplate"><template>poll/result.phtml</template><type>results</type></action>
@@ -99,6 +99,10 @@
                     <block type="sales/guest_links" name="return_link"/>
                     <action method="addLinkBlock"><blockName>return_link</blockName></action>
                     <action method="addLink" translate="label title" after="return_link" module="contacts" ifconfig="contacts/contacts/enabled"><label>Contact Us</label><url>contacts</url><title>Contact Us</title><prepare>true</prepare></action>
+                    <action method="removeLinkByUrl"><url helper="catalogsearch/getSearchTermUrl"/></action>
+                    <action method="removeLinkByUrl"><url helper="catalogsearch/getAdvancedSearchUrl"/></action>
+                    <action method="removeLinkByUrl"><url helper="catalog/map/getCategoryUrl" /></action>
+                    <remove name="return_link" />
                 </reference>
                 
                 <!-- This static block can be created and populated in admin. The footer_links cms block can be used as a starting point. -->

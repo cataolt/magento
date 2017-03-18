@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tm_Catalog>
+            <version>0.1.0</version>
+        </Tm_Catalog>
+    </modules>
+    <global>
+        <models>
+            <tm_catalog>
+                <class>Tm_Catalog_Model</class>
+            </tm_catalog>
+
+            <catalog>
+                <rewrite>
+                    <resource_layer_filter_attribute>Tm_Catalog_Model_Resource_Layer_Filter_Attribute</resource_layer_filter_attribute>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>
+
