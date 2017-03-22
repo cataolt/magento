@@ -51,3 +51,7 @@ var/cache/*
 skin/frontend/base/default/css/jquery/images
 
 
+var/cache/mage--0/mage---internal-metadatas---3b9_Zend_LocaleC_az_Latn_AZ_country_AZ
+var/cache
+app/locale
+var/session

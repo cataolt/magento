@@ -93,12 +93,12 @@
                     <?php }?>
                     <!-- /center mode -->
 
-	            	<div class="additional-info">
-	            		<div class="product-sku"><?php echo $this->__('Product Code: ') . '<span class="sku-number">' . nl2br($_product->getSku()) . '</span>'; ?></div>
-	            		<?php echo $this->getChildHtml('product_type_availability'); ?>
-	            		<?php echo $this->getChildHtml('product_type_data') ?>
-                        <div class="clear"></div>
-	            	</div>
+<!--	            	<div class="additional-info">-->
+<!--	            		<div class="product-sku">--><?php //echo $this->__('Product Code: ') . '<span class="sku-number">' . nl2br($_product->getSku()) . '</span>'; ?><!--</div>-->
+<!--	            		--><?php //echo $this->getChildHtml('product_type_availability'); ?>
+<!--	            		--><?php //echo $this->getChildHtml('product_type_data') ?>
+<!--                        <div class="clear"></div>-->
+<!--	            	</div>-->
 	                <div class="product-name secondary">
 	                    <span class="h1"><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></span>
 	                </div>
@@ -137,13 +137,13 @@
 	                                <span class="or"><?php echo $this->__('OR') ?></span>
 	                            <?php endif; ?>
 	                        <?php endif; ?>
-	                        <?php echo $this->getChildHtml('addto') ?>
+<!--	                        --><?php //echo $this->getChildHtml('addto') ?>
 	                        <?php echo $this->getChildHtml('sharing') ?>
 	                    </div>
 	                    <?php echo $this->getChildHtml('extra_buttons') ?>
 	                <?php elseif (!$_product->isSaleable()): ?>
 	                    <div class="add-to-box">
-	                        <?php echo $this->getChildHtml('addto') ?>
+<!--	                        --><?php //echo $this->getChildHtml('addto') ?>
 	                        <?php echo $this->getChildHtml('sharing') ?>
 	                    </div>
 	                <?php endif; ?>

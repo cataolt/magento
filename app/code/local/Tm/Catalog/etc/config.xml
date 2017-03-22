@@ -13,6 +13,7 @@
 
             <catalog>
                 <rewrite>
+                    <product>Tm_Catalog_Model_Product</product>
                     <resource_layer_filter_attribute>Tm_Catalog_Model_Resource_Layer_Filter_Attribute</resource_layer_filter_attribute>
                 </rewrite>
             </catalog>
