@@ -529,6 +529,9 @@
 	text-align: center;
 	padding: 6vw 0;
 	height: 66.6667%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 
 }
 .slider-block .left-side .slider-logo {
@@ -544,8 +547,8 @@
 	padding: 6vw 0;
 }
 .slider-block .container > div {position: relative;}
-.slider-block .container > div:before,
-.slider-block .container > div:after {
+.slider-block .container > div.right-side:before,
+.slider-block .container > div.right-side:after {
 	content: "";
 	height: 16.2857%;
 	width: 1px;
