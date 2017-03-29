@@ -29,7 +29,144 @@
         <div class="row">
             <div class="col-xs-12">
 			    <div class="footer">
-					  <p id="back-top"><a href="#top"><span></span></a> </p>
+                      <div>
+                          <div id="olark-wrapper" class="">
+                              <style rel="stylesheet" type="text/css">
+                                  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+                                  #olark-wrapper {
+                                      font-size: 11px !important;
+                                  }
+
+                                  #olark-wrapper .olark-launch-button {
+                                      background-color: #c72626 !important;
+
+                                  }
+                                  #olark-wrapper .olark-launch-button svg path {
+                                      fill: #ffffff !important;
+                                  }
+                                  #olark-wrapper .olark-launch-button .olark-button-text {
+                                      color: #ffffff !important;
+                                      font-family: 'Montserrat', sans-serif !important;
+                                      float: left !important;
+                                  }
+                                  #olark-wrapper .olark-top-bar {
+                                      background-color: #c72626 !important;
+                                      color: #ffffff !important;
+                                      border-color: #4993ca !important;
+                                  }
+                                  #olark-wrapper .olark-top-bar-text {
+                                      color: #ffffff !important;
+                                      font-family: 'Montserrat', sans-serif !important;
+                                      letter-spacing: normal !important;
+                                      font-weight: bold !important;
+                                  }
+                                  #olark-wrapper .olark-top-bar-arrow {
+                                      fill: #ffffff !important;
+                                  }
+                                  #olark-wrapper .olark-end-chat-button {
+                                      color: #ffffff !important;
+                                      background-color: rgba(56, 135, 194, 0.5) !important;
+                                  }
+                                  #olark-wrapper .olark-end-chat-button:hover {
+                                      background-color: #3887c2 !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-visitor-message {
+                                      background-color: rgba(91, 160, 208, 0.25) !important;
+                                      border: none !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-form-send-button {
+                                      background-color: #5ba0d0 !important;
+                                      color: #ffffff !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-feedback-form-button {
+                                      background-color: #5ba0d0 !important;
+                                      color: #ffffff !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-restart-button {
+                                      background-color: #5ba0d0 !important;
+                                      color: #ffffff !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-branding-panel .olark-branding-cancel-button {
+                                      background-color: #5ba0d0 !important;
+                                      border: none !important;
+                                      color: #ffffff !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-branding-panel .olark-branding-go-button {
+                                      border: none !important;
+                                      background: rgba(91, 160, 208, 0.35) !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-send-transcript-container .olark-send-transcript-form.olark-inline-form-valid .olark-form-input-container {
+                                      border-color: #5ba0d0 !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-send-transcript-container .olark-send-transcript-form.olark-inline-form-valid .olark-send-icon {
+                                      fill: #5ba0d0 !important;
+                                  }
+                                  #olark-wrapper .olark-end-chat-flag {
+                                      fill: #5ba0d0 !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-form-confirmation-icon .olark-launch-button-icon {
+                                      fill: #5ba0d0 !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-form-input:focus {
+                                      border-color: #5ba0d0 !important;
+                                  }
+                                  #olark-wrapper #olark-container .olark-form-message-input:focus {
+                                      border-color: #5ba0d0 !important;
+                                  }
+
+                                  #olark-container{
+                                      height: 110px !important;
+                                      top: inherit !important;
+                                      width: 350px !important;
+                                      right: 20px !important;
+                                      border-radius: 8px 8px 0 0 !important;
+                                      transition: none !important;
+                                  }
+
+                                  .olark-launch-button {
+                                      width: 350px !important;
+                                  }
+
+                                  #olark-container .olark-top-bar {
+                                      border-radius: 8px 8px 0 0 !important;
+                                      overflow:hidden !important;
+                                      font-size: 100% !important;
+                                  }
+
+                                  @media only screen and (max-width: 768px) {
+                                      #olark-container{
+                                          width: 250px !important;
+                                          right: 60px !important;
+                                      }
+
+                                      .olark-launch-button {
+                                          right: 60px !important;
+                                          width: 250px !important;
+                                      }
+                                  }
+
+
+                              </style>
+                              <button id='olark-button' class="olark-launch-button olark-chat-tab">
+                                  <p class="olark-button-text"><?php echo $this->__('Takeaway Order')?></p>
+                              </button>
+                              <div id="olark-container" class="olark-hidden ">
+                                  <div class="olark-top-bar">
+                                      <div class="olark-top-bar-text"><?php echo $this->__('Takeaway Order')?></div>
+                                      <div class="olark-top-bar-button">
+                                          <svg viewBox="0 0 15.1 8.9" fill="#ffffff">
+                                              <polygon class="olark-top-bar-arrow" points="0.2,1.4 7.6,8.9 15.1,1.4 13.7,0 7.6,6 1.6,0">
+                                          </svg>
+                                      </div>
+                                  </div>
+                                  <div class="olark-conversation-container olark-form-conversation-container olark-no-message-form">
+                                      <div class="olark-form-message">
+                                          <?php echo Mage::getStoreConfig('general/store_information/phone')?>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
 					  <div class="footer-cols-wrapper row">
 						<div class="footer-col col-xs-6 col-sm-9">
 							<h4><?php echo $this->__('Information') ?></h4>
@@ -52,16 +189,22 @@
 					<div class="clear"></div>
 					<address><?php echo $this->getCopyright() ?></address>
 					<?php echo $this->getChildHtml('store_switcher') ?>
-					<?php $current_page = Mage::app()->getFrontController()->getRequest()->getRouteName(); 
-						if ($current_page == 'cms'):
-							echo 'More Magento Food Store Templates at <a rel="nofollow" href="http://www.templatemonster.com/category/food-store-magento-themes/" target="_blank">TemplateMonster.com</a>';
-						endif;
-					?>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<script type="application/javascript">
+    jQuery(document).ready(function() {
+        jQuery("#olark-button").click(function () {
+            jQuery("#olark-container").removeClass("olark-hidden");
+        })
+        jQuery(".olark-top-bar").click(function () {
+            jQuery("#olark-container").addClass("olark-hidden");
+        })
+    });
+</script>
 
 <div class="col-xs-6 col-sm-3">
 	

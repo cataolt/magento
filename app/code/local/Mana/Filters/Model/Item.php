@@ -41,6 +41,7 @@ class Mana_Filters_Model_Item extends Mage_Catalog_Model_Layer_Filter_Item {
             // MANA_END
             Mage::getBlockSingleton('page/html_pager')->getPageVarName() => null // exclude current page from urls
         );
+
         if ($this->coreHelper()->isManadevDependentFilterInstalled() && $this->dependentHelper()->areDependentFiltersClearedOnParentFilterChange()) {
             $query = $this->dependentHelper()->removeDependentFiltersFromUrl($query, $this->getFilter()->getRequestVar());
         }
