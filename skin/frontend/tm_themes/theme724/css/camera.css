@@ -544,13 +544,13 @@
 	width: 50%;
 	text-align: center;
 	height: 66.6667%;
-	padding: 6vw 0;
+	padding: 3vw 0;
 }
 .slider-block .container > div {position: relative;}
 .slider-block .container > div.right-side:before,
 .slider-block .container > div.right-side:after {
 	content: "";
-	height: 16.2857%;
+	height: 10%;
 	width: 1px;
 	position: absolute;
 	left: 50%;
@@ -584,7 +584,7 @@
 }
 .slider-block .right-side h4 {
 	font-family: 'Grand Hotel', cursive;
-	font-size: 4vw;
+	font-size: 3vw;
 	color: #ffffff;
 	line-height: 4vw;
 	font-weight: normal;
@@ -614,12 +614,12 @@
 	.camera_wrap .camera_pag .camera_pag_ul {right: 13%;}
 }
 @media only screen and (max-width: 1499px) {
-	.slider-block .right-side {padding: 5.5vw 0;}
+	.slider-block .right-side {padding: 3.5vw 0;}
 	.camera_wrap .camera_pag .camera_pag_ul {right: 10%;}
 	.slider-block .right-side .slider-text-1 {font-size: 20px; line-height: 24px;}
 }
 @media only screen and (max-width: 1349px) {
-	.slider-block .right-side .slider-text-1 {display: none;}
+	/*.slider-block .right-side .slider-text-1 {display: none;}*/
 	.slider-block .right-side h4 {margin-bottom: 20px;}
 	.slider-block .slider-logo {margin-top: 0;}
 	.camera_wrap .camera_pag .camera_pag_ul {right: 6%; bottom: 26%;}
@@ -656,8 +656,10 @@
 }
 @media only screen and (max-width: 550px) {
 	.slider-block .left-side {padding: 10px 0px;}
-	.slider-block .right-side { padding: 20px 0;}
-	.slider-block .right-side h4 {font-size: 7vw; line-height: 7vw; margin-bottom: 10px;}
+	.slider-block .right-side { padding: 10px 0;}
+	.slider-block .right-side h4 {font-size: 5vw; line-height: 5vw; margin-bottom: 0px;}
+	.slider-block .right-side .slider-text-1 {font-size: 2vw; line-height: 2vw; margin-bottom: 10px;}
+
 	.camera_wrap a.button {padding: 3px; font-size: 12px; border: none;}
 	.slider-block .left-side .slogan {
 		font-size: 10px;

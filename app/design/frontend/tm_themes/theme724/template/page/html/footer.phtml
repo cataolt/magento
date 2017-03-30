@@ -30,6 +30,16 @@
             <div class="col-xs-12">
 			    <div class="footer">
                       <div>
+                          <?php
+                          $backToTop = false;
+                          $handles =Mage::app()->getLayout()->getUpdate()->getHandles();
+                            if(in_array('product_list', $handles)){
+                                $backToTop = true;
+                            }
+                          ?>
+                          <?php if($backToTop): ?>
+                              <p id="back-top"><a href="#top"><span></span></a> </p>
+                          <?php endif; ?>
                           <div id="olark-wrapper" class="">
                               <style rel="stylesheet" type="text/css">
                                   @import url('https://fonts.googleapis.com/css?family=Montserrat');

@@ -127,7 +127,7 @@
             <action method="removeLinkByUrl"><url helper="customer/getRegisterUrl"/></action>
             <!--<action method="addLink" translate="label title before_text" module="customer"><label>Register</label><url helper="customer/getRegisterUrl" /><title>Register</title><prepare/><urlParams/><position>100</position><li/><aParams>class="register-link"</aParams></action>-->
 
-            <action method="addLink" translate="label title" module="customer"><label>About us</label><url>about</url><title>About us</title><prepare>true</prepare><urlParams/><position>10</position><liParams/><aParams>class="top-link-home"</aParams></action>
+            <action method="addLink" translate="label title" module="customer"><label>About us</label><url>about-us</url><title>About us</title><prepare>true</prepare><urlParams/><position>10</position><liParams/><aParams>class="top-link-home"</aParams></action>
 
             <action method="addLink" translate="label title" module="customer"><label>Contact</label><url>contacts</url><title>Contact</title><prepare>true</prepare><urlParams/><position>20</position><liParams/><aParams>class="top-link-home"</aParams></action>
         </reference>
@@ -166,7 +166,7 @@
                 </reference>
             </reference>
         </reference>
-      
+
     </catalog_category_default>
 
      <catalog_category_layered translate="label">
